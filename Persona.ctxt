@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=nombrePersona\ sexoHombre\ peso\ altura\ edad
+comment0.target=Persona(java.lang.String,\ boolean,\ int,\ int,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Persona\r\n
+comment1.params=comida
+comment1.target=int\ comer(Comida)
+comment1.text=\r\nmet\u00F3do\ que\ debe\ permitir\ 1\ \u00FAnico\ par\u00E1metro\ de\ tipo\ comida\ y\ debe\ devolver\ un\ entero\ consistente\ \r\nen\ las\ calorias\ ingeridas\ en\ esa\ comida\ en\ caso\ de\ que\ la\ persona\ la\ coma\ o\ -1\ en\ caso\ de\ que\ no\ la\ coma.\r\n
+comment2.params=
+comment2.target=int\ getCaloriasIngeridas()
+comment2.text=\r\n\ m\u00E9todo\ que\ permite\ saber\ la\ cantidad\ de\ calorias\ que\ lleva\ ingerida\ una\ persona\ se\ denomina\ getCaloriasIngeridas,\r\n\ no\ admite\ par\u00E1metros\ y\ devuelve\ un\ entero.\r\n
+numComments=3
