@@ -8,4 +8,6 @@ comment1.text=\r\nmet\u00F3do\ que\ debe\ permitir\ 1\ \u00FAnico\ par\u00E1metr
 comment2.params=
 comment2.target=int\ getCaloriasIngeridas()
 comment2.text=\r\n\ m\u00E9todo\ que\ permite\ saber\ la\ cantidad\ de\ calorias\ que\ lleva\ ingerida\ una\ persona\ se\ denomina\ getCaloriasIngeridas,\r\n\ no\ admite\ par\u00E1metros\ y\ devuelve\ un\ entero.\r\n
-numComments=3
+comment3.params=
+comment3.target=void\ preguntarPersona()
+numComments=4

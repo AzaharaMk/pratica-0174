@@ -13,11 +13,11 @@ public class Persona
         if (sexoHombre)
         {
             //máxmo de calorias que puede ingerir una persona.
-            caloriasMaximas = (10 * peso) + (6 * altura) - (5 * edad)+5;
+            caloriasMaximas = (10 * peso) + (6 * altura) + (5 * edad)+5;
         }
         else
         {
-            caloriasMaximas = (10 * peso) + (6 * altura) - (5 * edad) - 161;
+            caloriasMaximas = (10 * peso) + (6 * altura) + (5 * edad) - 161;
         }
     }
 
@@ -28,7 +28,7 @@ public class Persona
     public int comer(Comida comida)
     {
         int caloriasIngeridas = -1;
-        if (caloriasMaximas >= (comida.getCalorias() + calorias))
+        if (caloriasMaximas >= calorias)
         {
            caloriasIngeridas = comida.getCalorias();
            calorias =caloriasIngeridas + calorias;
@@ -43,5 +43,9 @@ public class Persona
     public int getCaloriasIngeridas()
     {
         return calorias;
+    }
+    
+    public void preguntarPersona()
+    {
     }
 }
